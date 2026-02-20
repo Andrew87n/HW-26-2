@@ -1,0 +1,36 @@
+{
+  "name": "hw-26-2",
+  "version": "1.0.0",
+  "description": "",
+  "browserlist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /libraries/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew87n/HW-26-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew87n/HW-26-2/issues"
+  },
+  "homepage": "https://github.com/Andrew87n/HW-26-2#readme",
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "browserlist": "^1.0.2",
+    "chart.js": "^4.5.1",
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
